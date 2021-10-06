@@ -1,0 +1,31 @@
+
+.schedule {
+    display: grid;
+    grid-template-columns: 80px auto 80px;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    background-color: lightblue;
+    border-top: 10px solid black;
+    flex-wrap: wrap;
+};
+
+.time1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+};
+
+.plans1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+};
+
+.time2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+};
+
