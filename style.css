@@ -1,31 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
 
 .schedule {
     display: grid;
     grid-template-columns: 80px auto 80px;
-    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: 120px 120px 120px 120px 120px 120px 120px 120px 120px;
     background-color: lightblue;
     border-top: 10px solid black;
+    border-bottom: 10px solid black;
     flex-wrap: wrap;
-};
+    border-radius: 2px;
+}
 
-.time1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-};
+div p {
+    text-align: center;
+    margin: 0px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 2px;
+}
 
-.plans1 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-};
+div input {
+    text-align: left;
+    text-align: top;
+    background-color: greenyellow;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 2px solid black;
+}
 
-.time2 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-};
-
+div button {
+    background-color: rgb(77, 77, 218);
+}
